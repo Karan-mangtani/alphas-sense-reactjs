@@ -1,0 +1,268 @@
+.loginTab {
+  padding-top: 55px;
+}
+
+.headingText {
+  font-size: 32px;
+  /* height: 48px; */
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #11223f;
+  font-family: "Montserrat";
+}
+.SubheadlineText {
+  height: 64px;
+  font-family: D-DIN;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #11223f;
+}
+
+.loginImg {
+  position: absolute;
+  right: 0%;
+  margin-right: -200px;
+  z-index: 1;
+}
+.loginCard {
+  border: 0px;
+  box-shadow: -34px 4px 70px 3px #f9f9f9;
+  border-radius: 125px 10px 0px;
+  padding-top: 74px;
+  background-image: linear-gradient(#fff, #fafafa);
+}
+.loginForm {
+  width: 280px;
+  margin: 20% auto;
+}
+.loginName {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #041736;
+  padding-bottom: 24px;
+}
+.loginBtn {
+  width: 280px;
+  height: 50px;
+  text-shadow: 0 10px 40px #40d883;
+  font-family: D-DIN;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 2px;
+  /* background-color: ; */
+  z-index: 2;
+}
+.registerBtn {
+  width: 280px;
+  height: 50px;
+  text-shadow: 0 10px 40px #40d883;
+  border-width: 0.1em;
+  font-family: D-DIN;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #40d883;
+  border-radius: 2px;
+  /* background-color: ; */
+  z-index: 2;
+}
+.discoverBtn {
+  width: 177px;
+  height: 50px;
+  text-shadow: 0 10px 40px rgba(25, 104, 252, 0.2);
+  font-family: D-DIN;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 2px;
+  padding: 0.8em 1em;
+}
+body {
+  font-family: D-DIN;
+  background-color: #f8f9fa !important;
+}
+@media only screen and (max-width: 992px) {
+  .loginCard {
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 1em;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .loginCard {
+    /* border: 0px ; */
+    /* box-shadow: none; */
+    border-radius: 0px;
+    padding: 1em;
+  }
+}
+@media only screen and (max-width: 1368px) {
+  .loginImg {
+    display: none;
+  }
+}
+/* Input */
+
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  height: 3.125rem;
+  padding: 0.95rem 0em;
+}
+.form-label-group > input {
+  padding: 0.1em;
+}
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #041736;
+  pointer-events: none;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 0.83; */
+  letter-spacing: normal;
+  /* color: #40d883; */
+  cursor: text; /* Match the input under the label */
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: all 0.1s ease-in-out;
+}
+.form-label-group > input {
+  border: 0px !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid !important;
+  outline: none !important;
+  -webkit-appearance: none;
+  /* font-size: 12px; */
+  font-family: D-DIN;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  color: #1d1d26;
+}
+.form-label-group > input.form-control:focus {
+  /* outline: 5px !important; */
+  -webkit-appearance: none;
+  background-color: #fff;
+  box-shadow: none;
+  font-family: D-DIN;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  color: #1d1d26;
+}
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent !important;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent !important;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent !important;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: 1.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  font-size: 12px !important;
+  color: #40d883 !important;
+}
+
+/* Fallback for Edge
+    -------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+    -------------------------------------------------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+.form-control {
+  width: 100%;
+}
+
+.invalid-feedback {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: var(--danger);
+}
